@@ -41,7 +41,7 @@ app.get('/test', (req, res) => {
   res.send('hello')
 })
 
-https
+/*https
   .createServer(
     {
       key: fs.readFileSync('key.key'),
@@ -52,7 +52,7 @@ https
   .listen(PORT, function () {
     console.log('Example app listening on port ' + PORT)
   })
-
+*/
 var server = app.listen(80, function () {
   console.log('Example app listening at http://%s')
 })

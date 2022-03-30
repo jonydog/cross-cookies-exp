@@ -33,7 +33,7 @@ app.get('/cookie', (req, res) => {
     secure: true,
   })
   res.header('Access-Control-Allow-Credentials', true)
-  res.header('Access-Control-Allow-Origin', 'https://interprefy.com')
+  res.header('Access-Control-Allow-Origin', 'https://test2.faturial.com')
   res.send()
 })
 

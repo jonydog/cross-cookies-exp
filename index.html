@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div style="display: flex;">
+            <button style="margin: 30px;" onclick="
+                $.get('https://test1.faturial.com/cookie',()=>{ console.log('Cookie obtained') });
+
+            ">
+                Get authorization cookie
+            </button>
+            <button style="margin: 30px;" onclick="$.get('https://interprefy.com/try',()=>{ console.log('Cookie obtained') });">
+                 try request with cookie
+            </button>
+             <button onclick="
+                   window.location = 'https://test1.faturial.com/try'
+            ">
+                Try
+            </button>
+        </div>
+    </body>
+</html>
